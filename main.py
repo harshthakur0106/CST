@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 # Load the datasets
-df = pd.read_csv("C:/Users/ht557/OneDrive/Desktop/Cheetcode for leetcode/LeetcodeDATA.csv")
-descriptions = pd.read_csv("C:/Users/ht557/OneDrive/Desktop/Cheetcode for leetcode/leetcode_dataset - lc.csv")
+df = pd.read_csv("LeetcodeDATA.csv")
+descriptions = pd.read_csv("leetcode_dataset.csv")
 
 # Set page title and favicon
 st.set_page_config(page_title='Leetcode Code Snippet', page_icon=":computer:")
